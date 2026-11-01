@@ -1,0 +1,45 @@
+Resumo
+Os textos definem a engenharia de software não apenas como o ato de escrever código, mas como "programação integrada ao longo do tempo". O primeiro trecho argumenta que uma base de código sustentável precisa 
+sobreviver a todo o seu ciclo de vida guiada por três princípios: adaptação ao Tempo e Mudança, gestão de Escala e Crescimento, e avaliação de Trade-offs e Custos. O segundo texto diferencia a 
+engenharia de software da programação comum e da ciência da computação ao compará-la com engenharias físicas tradicionais, como a civil e a aeronáutica.
+O autor conclui que, embora o software tenha um impacto profundo e real na sociedade, sua natureza intangível faz com que a disciplina ainda careça do rigor técnico e das práticas de segurança consolidadas 
+em outras engenharias, uma lacuna urgente que precisa ser preenchida.
+
+Comentário: O Desafio da Intangibilidade
+A comparação entre a engenharia de software e as engenharias tradicionais expõe o paradoxo central da área: construir ferramentas com impacto real absoluto usando um material que não existe no mundo físico.
+Enquanto um engenheiro aeronáutico lida com aerodinâmica, fadiga de metal e gravidade — forças tangíveis que impõem limites rigorosos e imediatos ao design —
+os engenheiros de software constroem estruturas invisíveis feitas puramente de lógica, fluxo de dados e abstração. Essa intangibilidade cria a ilusão perigosa de que o software é infinitamente maleável e perdoável.
+Quando uma ponte está comprometida, vemos rachaduras e ferrugem. Quando um sistema de software está se deteriorando por meio de "dívida técnica", o dano é estruturalmente invisível até o exato momento em que ocorre
+uma falha crítica.Como o código não sofre o desgaste natural do mundo físico, a deterioração do software ao longo do tempo vem da mudança do ambiente ao seu redor e da perda de contexto de quem o mantém. 
+É exatamente por ser uma disciplina intangível que a engenharia de software exige um rigor metodológico extremo. Sem leis da física para limitar o que pode ser feito ou para alertar sobre o colapso iminente,
+as organizações precisam criar sua própria "gravidade". Ferramentas de integração contínua, testes automatizados, revisões de código e padrões de arquitetura são as leis físicas artificiais que os
+engenheiros de software impõem a si mesmos para garantir que a programação suporte a escala e o tempo sem desmoronar.
+
+Atividade 3: 3 Exemplos de Trade-offs
+Desempenho vs. Legibilidade de Código:
+
+Escrever um código super otimizado e complexo pode fazer a API rodar milissegundos mais rápido, mas se torna um pesadelo para o próximo desenvolvedor que precisar ler e dar manutenção.
+Às vezes, um código ligeiramente mais lento, mas limpo e compreensível, é a melhor escolha.
+
+Tempo de Entrega (Time-to-Market) vs. Qualidade (Dívida Técnica):
+Para entregar a Sprint 1 no prazo, podemos optar por fazer uma funcionalidade de forma mais "direta" (hardcoded), acumulando dívida técnica. O trade-off é ganhar tempo agora, mas ter que pagar o preço de refatorar 
+o código no futuro.
+
+Armazenamento vs. Processamento (Uso de Cache):
+Ao lidar com faixas etárias, podemos calcular a idade e a faixa toda vez que o usuário pedir (gasta mais processamento da API) ou podemos calcular uma vez e salvar no banco de dados 
+(gasta mais espaço de armazenamento).
+
+Atividade 4: Minhas contribuições pessoais com relação à API
+Minhas principais contribuições se dividiram entre o desenvolvimento técnico e a comunicação do time. No código da API, fui responsável por implementar a lógica e a manipulação de dados referentes às 
+faixas etárias, garantindo que a aplicação classificasse e retornasse essas informações corretamente. Além da parte técnica, atuei na linha de frente da comunicação do projeto, sendo o responsável por conduzir 
+a apresentação da Sprint 1, mostrando o andamento do produto, as entregas feitas e alinhando as expectativas com os stakeholders/professores.
+
+Atividade 5: As habilidades que eu aprendi com as contribuições que eu fiz
+Com essas contribuições, desenvolvi tanto hard skills quanto soft skills:
+
+Lógica de Back-end (Hard Skill): Ao mexer no código das faixas etárias na API, aprimorei minha capacidade de manipular dados, criar regras de negócio eficientes e entender como estruturar o envio/recebimento de 
+informações.
+Comunicação e Oratória (Soft Skill): Apresentar a Sprint 1 me ajudou a perder a timidez e a desenvolver a capacidade de traduzir o trabalho técnico da equipe em uma apresentação clara e objetiva para o público,
+melhorando minha postura profissional.
+
+Visão de Produto: Entender como a minha parte do código (faixas etárias) se conectava com o valor final entregue na Sprint.
